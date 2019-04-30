@@ -1,0 +1,57 @@
+/* Globals */
+a,a:focus,a:hover{color:#fff;}
+html,body{height:100%;text-align:center;background-color:#fcfcf5;}
+body{color:#333333}
+.hide{display:none;}
+.landing-heading{font-family:'Lato',Sans-Serif;font-weight:400;font-size:65px;padding-bottom:30px; padding-top:150px;}
+
+/* Buttons */
+.btn{font-family:'Lato',Sans-Serif;padding:0.5625rem 2.5rem;font-size:0.8125rem;font-weight:400;line-height:1.75rem;border-radius:0!important;-webkit-transition:all .2s ease-in-out;-moz-transition:all .2s ease-in-out;-ms-transition:all .2s ease-in-out;-o-transition:all .2s ease-in-out;transition:all .2s ease-in-out;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;}
+.btn-lg{font-size:1.5rem;padding:0.6875rem 3.4375rem;line-height:2.5rem;}
+.btn:focus,.btn:active:focus,.btn.active:focus{outline:none;}
+.btn-submit{bottom-margin:5px}
+/* .btn-primary{color:#333333;border:1px solid #333333;background-color:#fcfcf5;} */
+/* .btn-primary:hover,.btn-primary:focus,.btn-primary:active{color:#fcfcfc;border:1px solid #212121;background-color:#f2f2f2;} */
+
+/* Avatar */
+.avatar{width:100px;height:100px;}
+.avatar-section{margin-bottom:5px;}
+.username{margin:0px;}
+
+/* Scaffolding */
+.site-wrapper-inner{display:flex;flex-flow:row wrap;justify-content:center;align-content:flex-start;width:100%;height:100vh;}
+.panel-authed{padding:0 0 0 0;}
+
+/* Delete button */
+.btn-delete{float:right;font-size:11px;font-weight:400;color:black;cursor:pointer}
+
+/* Input */
+input, textarea{color:#000;padding:10px;}
+.input-note{margin-top:30px;width:100%;height:70px;border-radius:2px;overflow:scroll;top:0}
+
+/* Notes */
+$enable-shadows: true;
+.notes{padding-top:0px;overflow:scroll}
+.note{padding:20px;background-color:#fff;border:1px solid #f1f1f1; border-top: 0px;text-align:left}
+
+/* Column */
+.col-main{margin-top:30px}
+.col-main-profile{display:flex;flex-direction:column}
+.col-main-feed{display:flex;flex-direction:column;width:600px}
+
+/* Shadows */
+.shadow {
+  -moz-box-shadow:    0px 1px 0px 1px #ccc;
+  -webkit-box-shadow: 0px 1px 0px 1px #ccc;
+  box-shadow:         0px 1px 0px 1px #ccc;
+}
+
+/* Footer */
+.footer {
+  margin-top:50px;
+}
+
+/* Note */
+.new-note{text-align:right;top:100px;overflow:scroll;border-top-right-radius:2px;border-top-left-radius:2px;box-shadow: 0px 1px 1px 1px #ccc;background-color:#fff}
+.note-secondary{color:grey}
+.note-date{margin-top:10px}
